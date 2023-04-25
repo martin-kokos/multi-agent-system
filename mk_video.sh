@@ -1,0 +1,1 @@
+ffmpeg -hwaccel vaapi -hwaccel_output_format vaapi -vaapi_device /dev/dri/renderD128 -framerate 5 -pattern_type glob -i 'img/personalities*.png' -filter_complex "fps=15,split[v1][v2]; [v1]palettegen=stats_mode=full [palette]; [v2][palette]paletteuse=dither=sierra2_4a" -vsync 0 -y personalities_in_time.gif
