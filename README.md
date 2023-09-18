@@ -1,17 +1,8 @@
 # Multi-agent-system
 
-## Task
+## Goal
 
-Your task is to build a prototype of a multi-agent system that simulates social interactions in a simple environment. The environment should consist of multiple agents with different abilities, each with its own unique characteristics and behaviors. The agents should work together to achieve a common goal, such as collecting resources or solving a puzzle. You are free to choose the specific abilities and behaviors of the agents, as well as the goal they are trying to achieve. You can use any relevant techniques, such as game theory, deep learning, or other machine learning approaches, to design and implement the system. Your solution should be scalable, efficient, and able to handle
-many agents.
-
-Your submission should include the following:
-- A detailed description of the multi-agent system, including the agents' architecture, abilities, and behaviors.
-- Code implementation of the system, including any machine learning models or algorithms used.
-- Documentation of the experiment setup and evaluation metrics used to assess the system's performance.
-
-Analysis of the results and any recommendations for improving the system. You are expected to spend approximately 8 hours on this assignment. Please submit your solution, a brief summary of your approach, and any assumptions made. To submit the project, you should create a private GitHub repository specifically for the project and then invite honzaMaly as a collaborator to the repository. Good luck!
-
+The goal is to create an interesting simulation and encounter some of the way an simulation can explode and not go the way you expect. It uses elements of game thoery within an environment that simulates social interactions between agents.
 
 ### Checklist
 
@@ -71,7 +62,7 @@ The following animation presents the personality functions on topic/opinion spac
 
 Notice that when the values of gov agents (red) at a topic (green) are clustered enough, the topic (green) is solved and disappears.
 
-In order to draw conclusions from the simulation, we can take advantage of the simlicity of the model and observe events that would be otherwise be too rare to occur. Or we are able to run many simulations in order to do statistical analysis and draw conclusions from them, which would otherwise stay hidden in the noise of a single simulation.
+In order to draw conclusions from the simulation, we can take advantage of the simplicity of the model and observe events that would be otherwise be too rare to occur. Or we are able to run many simulations in order to do statistical analysis and draw conclusions from them, which would otherwise stay hidden in the noise of a single simulation.
 
 
 #### Simulation tuning
